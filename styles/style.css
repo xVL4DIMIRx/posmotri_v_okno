@@ -55,11 +55,13 @@ ol {
   margin: auto;
 }
 .content {
+  width: 1140PX;
   margin: 133px 30px;
   display: flex;
   gap: 32px;
 }
 .result {
+  width: 711PX;
   align-self: flex-end;
 }
 
@@ -71,7 +73,8 @@ ol {
 }
 .search-form {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  /* justify-content: space-between; */
   gap: 40px;
 }
 .search-form__fieldset {
@@ -89,6 +92,7 @@ ol {
   text-align: left;
 }
 .search-form__label {
+  padding-right: 14px;
   display: flex;
   align-items: center;
   gap: 5px;
@@ -108,6 +112,11 @@ ol {
 }
 
 .search-form__textfield {
+  font-family: Fira Sans Condensed, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
   border-top: 1px solid #fff;
   border-right: none;
   border-bottom: 1px solid #fff;
@@ -187,7 +196,7 @@ ol {
 }
 
 .search-form__submit-button {
-  margin-top: 18px;
+  align-self: flex-end;
 }
 .content__details {
   width: 399px;
@@ -218,7 +227,6 @@ ol {
   width: 398px;
   padding: 2px;
   width: 100%;
-
 }
 
 .content__card-link {
@@ -239,6 +247,10 @@ ol {
 
 .content__list-item:focus-visible {
   outline: 1px solid #fff;
+}
+
+.content__card-link_current {
+  background-color: #545050;
 }
 
 .content__video-card {
