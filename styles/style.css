@@ -55,7 +55,7 @@ ol {
   margin: auto;
 }
 .content {
-  width: 1140PX;
+  width: 1140px;
   margin: 133px 30px;
   display: flex;
   gap: 32px;
@@ -80,8 +80,6 @@ ol {
 .search-form {
   margin-top: 16px;
   display: flex;
-  /* align-items: center; */
-  /* justify-content: space-between; */
   gap: 40px;
 }
 .search-form__fieldset {
@@ -180,7 +178,7 @@ ol {
   background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0em;
@@ -226,17 +224,15 @@ ol {
 }
 .content__list {
   position: relative;
-  margin-top: 26px;
+  margin-top: 25px;
   width: 399px;
   height: 298px;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  overflow: auto;
 }
 
 .content__list-item {
   margin-bottom: 30px;
   width: 398px;
-  padding: 2px;
   width: 100%;
 }
 
